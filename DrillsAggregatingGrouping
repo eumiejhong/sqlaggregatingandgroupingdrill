@@ -1,0 +1,5 @@
+select zip, max(maxtemperaturef) from weather group by zip;
+
+select start_station from trips group by start_station;
+
+select end_station, avg(duration) from trips group by end_station;
